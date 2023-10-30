@@ -1,7 +1,0 @@
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.csproj.AssemblyReference.cache
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.GeneratedMSBuildEditorConfig.editorconfig
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.AssemblyInfoInputs.cache
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.AssemblyInfo.cs
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.csproj.CoreCompileInputs.cache
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.MvcApplicationPartsAssemblyInfo.cs
-/home/takobzlah/Desktop/dev/code/cook-with-kobz/CWT.Web.API/obj/Debug/net7.0/CWT.Web.API.MvcApplicationPartsAssemblyInfo.cache
