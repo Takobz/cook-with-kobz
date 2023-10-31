@@ -1,40 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-import InviteSummaryProps from './Interfaces/InviteSummaryProps';
-import InviteSummary from './components/landingpage/InviteSummary';
+import Home from './components/home/Home';
+import LoginModal from './components/landingpage/LoginModal';
 
 function App() {
-
-  const inviteSummaries: InviteSummaryProps[] = [
-    {
-      foodName: 'Pizza',
-      inviteeName: 'John',
-      summaryText: 'This is a summary'
-    },
-    {
-      foodName: 'Burgers',
-      inviteeName: 'Jane',
-      summaryText: 'This is another summary'
-    },
-    {
-      foodName: 'Tacos',
-      inviteeName: 'Bob',
-      summaryText: 'This is yet another summary'
-    }
-  ];
-
+  //pass data to see which chef it is to get relevant data
   return (
-    <div className="App" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-      {inviteSummaries.map((inviteSummary, index) => (
-        <InviteSummary
-          key={index}
-          foodName={inviteSummary.foodName}
-          inviteeName={inviteSummary.inviteeName}
-          summaryText={inviteSummary.summaryText}
-        />
-      ))}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/'  element={<Home />}/>
+        <Route path='/login' element={<LoginModal />}/>
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 
