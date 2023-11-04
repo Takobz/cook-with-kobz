@@ -23,7 +23,7 @@ const inviteSummaries: InviteSummaryProps[] = [
 const Home = () => {
 
   return (
-  <div className="App" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+  <div className="App CenterDiv">
     {inviteSummaries.map((inviteSummary, index) => (
       <InviteSummary
         key={index}
