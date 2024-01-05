@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CWT.Web.API.UnitTests
 build_property.ProjectDir = /home/takobzlah/Desktop/dev/code/cook-with-kobz/src/CWT.APP/CWT.Web.API.UnitTests/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

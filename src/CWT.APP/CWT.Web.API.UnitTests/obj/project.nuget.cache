@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hxrffSrS9I4yyoUzndC9J5BhvS55XT3piAypFfJu1KJD3VzfOYwDb2XsJVqqe3tePLF7JBV2gSCvMx+OKy7t/w==",
+  "dgSpecHash": "U+75W+9b+NRcPXHjndTFsrgVUokKeQ413FNnPUkZHiQF8M2Bz0QSOJWOVozvxZIEVjXzGgTN6geollKhYw3CmA==",
   "success": true,
   "projectFilePath": "/home/takobzlah/Desktop/dev/code/cook-with-kobz/src/CWT.APP/CWT.Web.API.UnitTests/CWT.Web.API.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -92,7 +92,9 @@
     "/home/takobzlah/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/home/takobzlah/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/home/takobzlah/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "/home/takobzlah/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "/home/takobzlah/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "/home/takobzlah/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/takobzlah/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
