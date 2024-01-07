@@ -1,5 +1,7 @@
+import { Fab } from "@mui/material";
 import InviteSummaryProps from "../../Interfaces/InviteSummaryProps"
-import InviteSummary from "../landingpage/InviteSummary"
+import InviteSummary from "../pages/InviteSummary"
+import AddIcon from '@mui/icons-material/Add';
 
 //useEffect will pull these on mount
 const inviteSummaries: InviteSummaryProps[] = [
@@ -32,6 +34,9 @@ const Home = () => {
         summaryText={inviteSummary.summaryText}
       />))
     }
+    <Fab sx={{ position: 'fixed', bottom: 16, right: 16 }}>
+      <AddIcon />
+    </Fab>
   </div>)
 }
 

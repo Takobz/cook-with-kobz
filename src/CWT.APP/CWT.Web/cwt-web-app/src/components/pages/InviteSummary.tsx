@@ -2,7 +2,7 @@ import React from 'react';
 import { Avatar, Card, CardContent, CardHeader, CardMedia, Typography } from '@mui/material';
 import { red } from '@mui/material/colors';
 import InviteSummaryProps from '../../Interfaces/InviteSummaryProps';
-import noPicture from './../../static/no-picture.jpg';
+import noPicture from '../../static/no-picture.jpg';
 
 const InviteSummary: React.FC<InviteSummaryProps> = (inviteSummary: InviteSummaryProps) => {
     return (
