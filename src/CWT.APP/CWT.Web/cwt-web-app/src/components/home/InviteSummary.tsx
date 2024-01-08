@@ -1,12 +1,28 @@
 import React from 'react';
-import { Avatar, Card, CardContent, CardHeader, CardMedia, Typography } from '@mui/material';
+import { Avatar, Card, CardActionArea, CardContent, CardHeader, CardMedia, Typography } from '@mui/material';
 import { red } from '@mui/material/colors';
 import InviteSummaryProps from '../../Interfaces/InviteSummaryProps';
 import noPicture from '../../static/no-picture.jpg';
+import { useNavigate } from 'react-router-dom';
+
+const actionsStyle = {
+    maxWidth: 500,
+    margin: '10px',
+    width: '75%'
+}
+
+const cardStyles = {
+    width: '100%',
+    height: '100%',
+    maxWidth: 500,
+}
 
 const InviteSummary: React.FC<InviteSummaryProps> = (inviteSummary: InviteSummaryProps) => {
+    const navigate = useNavigate();
+
     return (
-        <Card sx={{ maxWidth: 500, margin: '10px', width: '75%' }}>
+        <CardActionArea onClick={() => navigate(inviteSummary.id)} sx={actionsStyle}>
+            <Card sx={cardStyles}>
             <CardHeader 
                 avatar={
                     <Avatar sx={{ bgcolor: red[500] }}>
@@ -30,6 +46,7 @@ const InviteSummary: React.FC<InviteSummaryProps> = (inviteSummary: InviteSummar
                 </Typography>
             </CardContent>
         </Card>
+        </CardActionArea>
     );
 };
 
