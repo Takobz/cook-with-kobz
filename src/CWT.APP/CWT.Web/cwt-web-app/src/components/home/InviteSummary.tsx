@@ -21,7 +21,7 @@ const InviteSummary: React.FC<InviteSummaryProps> = (inviteSummary: InviteSummar
     const navigate = useNavigate();
 
     return (
-        <CardActionArea onClick={() => navigate(inviteSummary.id)} sx={actionsStyle}>
+        <CardActionArea onClick={() => navigate(`overview/${inviteSummary.id}`)} sx={actionsStyle}>
             <Card sx={cardStyles}>
             <CardHeader 
                 avatar={
